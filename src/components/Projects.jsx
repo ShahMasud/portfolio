@@ -4,7 +4,7 @@ import { motion } from 'framer-motion';
 import { portfolioConfig } from '../config/portfolio.config';
 
 // Import project thumbnails
-import zimo from '../assets/ZIMO.png';
+import zimo from '../assets/zimo.png';
 import dcs from '../assets/dcs.png';
 import reign from '../assets/reign-1.png';
 import luv from '../assets/luv.png';
