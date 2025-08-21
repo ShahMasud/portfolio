@@ -33,12 +33,12 @@ export default function Navigation() {
       <div className="nav-content">
         {/* Logo */}
          <motion.div whileHover={{ scale: 1.02 }} className="nav-logo shrink-0">
-    <img
+    {/* <img
       src={logo}
       alt="Shah Masood logo"
       style={{width:"auto", height:"100px"}}
-    />
-      {/* <div style={{
+    /> */}
+      <div style={{
         display:"flex",
         alignItems:"center",
         gap:"5px",
@@ -46,7 +46,7 @@ export default function Navigation() {
         <p style={{fontSize:"40px", margin:"0px", fontWeight:"bold"}}>{"</>"}</p>
         <p style={{fontSize:"27px", margin:"0px", fontWeight:"semi-bold"}}>Shah Masood</p>
 
-      </div> */}
+      </div>
   </motion.div>
 
         {/* Desktop Navigation */}
