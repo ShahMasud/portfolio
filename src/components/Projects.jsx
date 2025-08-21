@@ -11,15 +11,7 @@ import luv from '../assets/luv.png';
 import tiger from '../assets/empireoftiger.png';
 import hopiumbet from '../assets/hopiumbet.png';
 import kerks from '../assets/kerks.png';
-
-
-
-
-
-
-import trendvisionThumb from '../assets/trendvision thumbnail.png';
 import CustomButton from './customButton';
-import { p } from 'framer-motion/client';
 
 const containerVariants = {
   hidden: { opacity: 0 },
