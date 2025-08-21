@@ -1,9 +1,7 @@
 // Portfolio Configuration File
 // Edit this file to customize the portfolio with your own details
-import zimo from '../assets/ZIMO.png';
 import dcs from '../assets/dcs.png';
-import reign from '../assets/reign-1.png';
-import luv from '../assets/luv.png';
+
 export const portfolioConfig = {
   // Personal Information
   personal: {
@@ -64,7 +62,7 @@ export const portfolioConfig = {
       techStack: ["Next.js", "Tailwind CSS", "Frontend Architecture", "UI/UX"],
       githubUrl: "https://github.com/Tahir-CS/E-commerse-store",
       liveUrl: "https://zimopro.com/",
-      thumbnail: zimo,
+      thumbnail: "../assets/zimo.png",
       category: "web"
     },
     {
