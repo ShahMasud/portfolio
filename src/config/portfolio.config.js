@@ -38,7 +38,7 @@ export const portfolioConfig = {
 
     // Stats
     stats: [
-      { number: "6+", label: "Projects Completed" },
+      { number: "40+", label: "Projects Completed" },
       { number: "4+", label: "Years Experience" },
       { number: "100%", label: "Client Satisfaction" }
     ]
