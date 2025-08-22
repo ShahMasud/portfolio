@@ -120,8 +120,10 @@ h2 {
 /* Colorful Gradient Text for Section Headings */
 .about-section h2,
 .skills-section h2,
+.experience-section .text-reveal,
 .projects-section h2,
 .contact-section h2,
+
 .section-title {
   background: linear-gradient(135deg, 
     #ffffff 0%, 
@@ -211,7 +213,7 @@ p {
   transition: all 0.8s cubic-bezier(0.25, 0.46, 0.45, 0.94);
 }
 
-.text-reveal.visible {
+.text-reveal {
   opacity: 1;
   transform: translateY(0);
 }
@@ -1510,6 +1512,15 @@ p {
 
 /* Responsive Design for 3D Profile */
 @media (max-width: 968px) {
+  .mobile-menu-btn {
+      display: block !important;
+     
+    }
+  .mobile-menu a {
+      font-size: 1rem;
+      font-weight: 900;
+      background-color: black;
+    }
   .about-content-grid {
     grid-template-columns: 1fr;
     gap: 60px;
@@ -2438,7 +2449,7 @@ margin-top: 3rem;
   
   .mobile-menu-btn {
     display: block;
-    color: white;
+    color: white !important;
   }
   
   .nav-content {
@@ -2571,3 +2582,4 @@ margin-top: 3rem;
   0%, 100% { background-position: 0% 50%; }
   50% { background-position: 100% 50%; }
 }
+

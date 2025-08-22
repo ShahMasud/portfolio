@@ -32,12 +32,12 @@ export default function Experience() {
         <motion.div
           initial="hidden"
           whileInView="visible"
-          viewport={{ once: true }}
+          viewport={{ once: true, amount: 0.3 }}
           variants={timelineVariants}
         >
           <div className="text-center mb-8">
             <h2 className="text-reveal">Work Experience</h2>
-            <p className="text-reveal">My Professional Journey</p>
+            <h3 className="">My Professional Journey</h3>
           </div>
 
           <div className="timeline">

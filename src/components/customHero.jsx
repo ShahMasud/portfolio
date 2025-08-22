@@ -46,13 +46,13 @@ const CustomHero = () => {
       <figure className="pic-holder">
         <motion.img
           src={profileImage2}
-          className="pic pic1"
+          className="pic"
           alt="skills"
         />
         <motion.img
           src={profileImage}
 
-          className="pic pic2"
+          className="pic"
           alt="skills"
           animate={{ x: -500 }}
           transition={{ duration: 1, delay: 1.8, type: "tween" }}
