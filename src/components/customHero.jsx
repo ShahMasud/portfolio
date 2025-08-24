@@ -41,7 +41,9 @@ const CustomHero = () => {
             I build modern, scalable, and user-friendly web applications, seamlessly integrating backend APIs and AI-powered features.
           </motion.p>
         </div>
-        <LinkBtn text="Learn more" />
+        <div className="link-btn-div">
+          <LinkBtn text="Learn more" />
+        </div>
       </div>
       <figure className="pic-holder">
         <motion.img
