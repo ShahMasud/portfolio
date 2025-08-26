@@ -1,7 +1,12 @@
 // Portfolio Configuration File
 // Edit this file to customize the portfolio with your own details
+import zimo from '../assets/zimo.png';
 import dcs from '../assets/dcs.png';
-
+import luv from '../assets/luv.png';
+import hopiumbet from '../assets/hopiumbet.png';
+import kerks from '../assets/kerks.png';
+import reign from '../assets/reign-1.png';
+import tiger from '../assets/empireoftiger.png';
 export const portfolioConfig = {
   // Personal Information
   personal: {
@@ -62,7 +67,7 @@ export const portfolioConfig = {
       techStack: ["Next.js", "Tailwind CSS", "Frontend Architecture", "UI/UX"],
       githubUrl: "",
       liveUrl: "https://zimopro.com/",
-      thumbnail: "../assets/zimo.png",
+      thumbnail: zimo,
       category: "web"
     },
     {
@@ -82,7 +87,7 @@ export const portfolioConfig = {
       techStack: ["Next.js", "MUI"],
       githubUrl: "",
       liveUrl: "https://stakev3.luvprotocol.com/",
-      thumbnail: "../assets/luv.png",
+      thumbnail: luv,
       category: "blockchain"
     },
     {
@@ -91,7 +96,7 @@ export const portfolioConfig = {
       techStack: ["React.js", "JavaScript", "MUI"],
       githubUrl: "",
       liveUrl: "confidential",
-      thumbnail: "../assets/hopiumbet.png",
+      thumbnail: hopiumbet,
       category: "blockchain"
     },
      {
@@ -100,7 +105,7 @@ export const portfolioConfig = {
       techStack: ["Next.js", "JavaScript", "Material UI", "CSS"],
       githubUrl: "",
       liveUrl: "confidential",
-      thumbnail: "../assets/kerks.png",
+      thumbnail: kerks,
       category: "blockchain"
     },
 
@@ -112,7 +117,7 @@ export const portfolioConfig = {
       techStack: ["Next.js", "JavaScript", "Tailwind CSS"],
       githubUrl: "",
       liveUrl: "https://reign-of-immortails.netlify.app/",
-      thumbnail: "../assets/reign-1.png",
+      thumbnail: reign,
       category: "static"
     },
        {
@@ -121,7 +126,7 @@ export const portfolioConfig = {
       techStack: ["React.js", "JavaScript", "Tailwind CSS"],
       githubUrl: "",
       liveUrl: "https://theempireoftiger.netlify.app/",
-      thumbnail: "../assets/empireoftiger.png",
+      thumbnail: tiger,
       category: "static"
     },
    

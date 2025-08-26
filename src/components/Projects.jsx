@@ -1,15 +1,6 @@
 import React, { useState } from 'react';
 import { motion } from 'framer-motion';
 import { portfolioConfig } from '../config/portfolio.config';
-
-// Import project thumbnails
-import zimo from '../assets/zimo.png';
-import dcs from '../assets/dcs.png';
-import reign from '../assets/reign-1.png';
-import luv from '../assets/luv.png';
-import tiger from '../assets/empireoftiger.png';
-import hopiumbet from '../assets/hopiumbet.png';
-import kerks from '../assets/kerks.png';
 import CustomButton from './customButton';
 
 const containerVariants = {
@@ -37,7 +28,7 @@ export default function Projects() {
   const [activeTab, setActiveTab] = useState("All");
   
   const { projects } = portfolioConfig;
-console.log(activeTab);
+console.log(projects.thumbnail,"projects");
 
 
   return (
@@ -85,22 +76,6 @@ console.log(activeTab);
           <div className="projects-grid">
             {projects
     .filter(project => activeTab === "All" || project.category === activeTab).map((project, index) => {
-      
-              // Map thumbnails to projects
-              let thumbnail = null;
-              if (project.title === "ZIMO Pro") thumbnail = zimo;
-              if (project.title === "Data Center Sustainability") thumbnail = dcs;
-              if (project.title === "Reign of Immortals") thumbnail = reign;
-              if (project.title === "LUV") thumbnail = luv;
-              if (project.title === "The Empire of Tiger") thumbnail = tiger;
-              if (project.title === "HOPIUMBET") thumbnail = hopiumbet;
-              if (project.title === "KEREKS STAKING") thumbnail = kerks;
-
-              
-
-
-
-              
               return (
                 <motion.div
                   key={index}
@@ -109,9 +84,10 @@ console.log(activeTab);
                   className="project-card"
                 >
                   <div className="project-image">
-                    {thumbnail ? (
+                   
+                    {project.thumbnail ? (
                       <img 
-                        src={thumbnail} 
+                        src={project.thumbnail} 
                         alt={project.title}
                         loading="lazy"
                       />
