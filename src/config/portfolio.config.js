@@ -7,6 +7,8 @@ import hopiumbet from '../assets/hopiumbet.png';
 import kerks from '../assets/kerks.png';
 import reign from '../assets/reign-1.png';
 import tiger from '../assets/empireoftiger.png';
+import topology from '../assets/topology.png';
+
 export const portfolioConfig = {
   // Personal Information
   personal: {
@@ -110,7 +112,15 @@ export const portfolioConfig = {
     },
 
     // static sites 
-
+   {
+      title: "Reactflow Topology",
+      description: "An interactive network topology visualizer built with React.js and React Flow. Users can explore routers, interfaces, and communities, with dynamic edge highlighting and recursive connection rendering for better network insights.",
+      techStack: ["React.js", "JavaScript", "React Flow", "CSS"],
+      githubUrl: "",
+      liveUrl: "https://reactflow-topology.netlify.app/",
+      thumbnail: topology,
+      category: "static"
+    },
         {
       title: "Reign of Immortals",
       description: "Led frontend development for a long-term Data Center Sustainability project aimed at optimizing energy efficiency and resource management. Built interactive data visualizations, feature-rich tables, and integrated AI-powered features such as a chatbot. Focused on creating a scalable, user-friendly interface with React.js to support complex data insights and decision-making. (Project still in development)",
@@ -129,6 +139,7 @@ export const portfolioConfig = {
       thumbnail: tiger,
       category: "static"
     },
+     
    
   ],
 
