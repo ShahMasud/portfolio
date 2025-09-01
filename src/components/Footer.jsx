@@ -5,7 +5,7 @@ export default function Footer() {
   const currentYear = new Date().getFullYear();
 
   return (
-    <footer className="bg-gray-900 text-white py-8">
+    <footer className="bg-gray-900 text-white py-8" style={{background:"red"}}>
       <div className="container">
         <motion.div
           initial={{ opacity: 0, y: 20 }}
@@ -22,7 +22,7 @@ export default function Footer() {
           
           <div className="flex space-x-6">
             <a
-              href="mailto:tahir@example.com"
+              href="mailto:shahmasood.dev@gmail.com"
               className="text-gray-400 hover:text-white transition-colors duration-200"
               aria-label="Email"
             >

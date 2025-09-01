@@ -106,7 +106,7 @@ img {
     border-radius: 30px;
     padding: 0.7rem 1rem;   
     cursor: pointer;
-    z-index: 9999;
+    z-index: 999;
 
 }
 

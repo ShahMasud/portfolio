@@ -1,5 +1,7 @@
 import React, { useState, useEffect } from 'react';
 import { motion } from 'framer-motion';
+import { IoMdMenu } from "react-icons/io";
+import { IoClose } from "react-icons/io5";
 import logo from "../assets/mitlogo.png"
 export default function Navigation() {
   const [isScrolled, setIsScrolled] = useState(false);
@@ -33,12 +35,12 @@ export default function Navigation() {
       <div className="nav-content">
         {/* Logo */}
          <motion.div whileHover={{ scale: 1.02 }} className="nav-logo shrink-0">
-    {/* <img
+    <img
       src={logo}
       alt="Shah Masood logo"
-      style={{width:"auto", height:"100px"}}
-    /> */}
-      <div style={{
+      style={{width:"auto", height:"60px"}}
+    />
+      {/* <div style={{
         display:"flex",
         alignItems:"center",
         gap:"5px",
@@ -46,7 +48,7 @@ export default function Navigation() {
         <p style={{fontSize:"40px", margin:"0px", fontWeight:"bold"}}>{"</>"}</p>
         <p style={{fontSize:"27px", margin:"0px", fontWeight:"semi-bold"}}>Shah Masood</p>
 
-      </div>
+      </div> */}
   </motion.div>
 
         {/* Desktop Navigation */}
@@ -65,14 +67,26 @@ export default function Navigation() {
           className="mobile-menu-btn"
           onClick={() => setIsMobileMenuOpen(!isMobileMenuOpen)}
         >
-          <svg className="w-6 h-6" fill="none" stroke="currentColor" viewBox="0 0 24 24">
-            <path strokeLinecap="round" strokeLinejoin="round" strokeWidth="2" d="M4 6h16M4 12h16M4 18h16" />
-          </svg>
+         <IoMdMenu/>
         </button>
       </div>
 
       {/* Mobile Navigation */}
       <div className={`mobile-menu ${isMobileMenuOpen ? 'open' : ''}`}>
+        <div className='mobile-menu-header'>
+           <img
+      src={logo}
+      alt="Shah Masood logo"
+      style={{width:"auto", height:"60px"}}
+    />
+           <button
+          className="mobile-menu-btn"
+          onClick={() => setIsMobileMenuOpen(!isMobileMenuOpen)}
+        >
+         <IoClose/>
+        </button>
+
+        </div>
         {navItems.map((item) => (
           <a
             key={item.name}

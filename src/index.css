@@ -787,21 +787,30 @@ p {
 
 /* Mobile menu */
 .mobile-menu {
+  width: 100%;
   position: fixed;
   top: 0;
   left: 0;
   right: 0;
-  bottom: 0;
+  /* bottom: 0; */
   background: rgba(0, 0, 0, 0.98);
+  height: 100vh;
   backdrop-filter: blur(20px);
-  z-index: 999;
+  z-index: 9999 !important;
   display: flex;
   flex-direction: column;
-  justify-content: center;
+  /* justify-content: center; */
   align-items: center;
   gap: 3rem;
   transform: translateX(100%);
   transition: transform 0.5s cubic-bezier(0.25, 0.46, 0.45, 0.94);
+}
+.mobile-menu-header{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 100%;
+  padding: 10px 20px;
 }
 
 .mobile-menu.open {
@@ -811,7 +820,7 @@ p {
 .mobile-menu a {
   color: #ffffff;
   text-decoration: none;
-  font-size: 3rem;
+  font-size: 2rem;
   font-weight: 900;
   text-transform: uppercase;
   letter-spacing: -0.02em;

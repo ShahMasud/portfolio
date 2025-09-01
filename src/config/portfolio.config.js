@@ -5,9 +5,14 @@ import dcs from '../assets/dcs.png';
 import luv from '../assets/luv.png';
 import hopiumbet from '../assets/hopiumbet.png';
 import kerks from '../assets/kerks.png';
+import wwc from '../assets/wwc.png';
 import reign from '../assets/reign-1.png';
 import tiger from '../assets/empireoftiger.png';
 import topology from '../assets/topology.png';
+import theredvillage from '../assets/theredvillage.png';
+import oceanichorror from '../assets/oceanic-horror.png';
+import siege from '../assets/siegebuilders.png';
+
 
 export const portfolioConfig = {
   // Personal Information
@@ -112,7 +117,7 @@ export const portfolioConfig = {
     },
 
     // static sites 
-   {
+    {
       title: "Reactflow Topology",
       description: "An interactive network topology visualizer built with React.js and React Flow. Users can explore routers, interfaces, and communities, with dynamic edge highlighting and recursive connection rendering for better network insights.",
       techStack: ["React.js", "JavaScript", "React Flow", "CSS"],
@@ -121,22 +126,59 @@ export const portfolioConfig = {
       thumbnail: topology,
       category: "static"
     },
-        {
-      title: "Reign of Immortals",
-      description: "Led frontend development for a long-term Data Center Sustainability project aimed at optimizing energy efficiency and resource management. Built interactive data visualizations, feature-rich tables, and integrated AI-powered features such as a chatbot. Focused on creating a scalable, user-friendly interface with React.js to support complex data insights and decision-making. (Project still in development)",
-      techStack: ["Next.js", "JavaScript", "Tailwind CSS"],
-      githubUrl: "",
-      liveUrl: "https://reign-of-immortails.netlify.app/",
-      thumbnail: reign,
-      category: "static"
-    },
-       {
+    {
       title: "The Empire of Tiger",
       description: "The Empire of Tiger: Exclusive NFT haven with captivating hand-drawn art on Ethereum's blockchain. Join a community of investors for unique themes like 'Outlaws' and 'Black Souls.' Elevate investments with distinct elite gangsters, merging artistry and technology in a creative NFT collection.",
       techStack: ["React.js", "JavaScript", "Tailwind CSS"],
       githubUrl: "",
       liveUrl: "https://theempireoftiger.netlify.app/",
       thumbnail: tiger,
+      category: "static"
+    },
+   {
+      title: "The Red Village – Landing Page",
+      description: "Created a static landing page for a client using Next.js, Tailwind CSS, and JavaScript. The page serves as the entry point for players, featuring a responsive design, fast performance, and clear navigation that seamlessly directs users to the main game platform.  ",
+      techStack: ["Next.js", "JavaScript", "Tailwind css"],
+      githubUrl: "",
+      liveUrl: "https://the-red-village.netlify.app",
+      thumbnail: theredvillage,
+      category: "static"
+    },
+     {
+      title: "Oceanic Horror – Landing Page",
+      description: "Developed a landing page for a client’s game project using modern frontend tools. Designed a responsive and visually immersive interface that captures the game’s dark, ocean-inspired theme while ensuring fast performance and smooth navigation for users.",
+      techStack: ["Next.js", "TypeScript", "Tailwind css"],
+      githubUrl: "",
+      liveUrl: "https://oceanic-horror.netlify.app/",
+      thumbnail: oceanichorror,
+      category: "static"
+    },
+      {
+      title: "Siege Builders – Clash of Legends",
+      description: "Siege Builders: Clash of Legends – Blockchain Multiplayer Game Built a landing page for a client’s next-gen blockchain-based online multiplayer game using Next.js, Tailwind CSS, and JavaScript. Delivered a responsive and high-performance interface that highlights core features such as competitive gameplay, global rankings, and champion progression, providing players with a seamless entry point into the game.",
+      techStack: ["Next.js", "TypeScript", "Tailwind css"],
+      githubUrl: "",
+      liveUrl: "https://siege-builder.netlify.app",
+      thumbnail: siege,
+      category: "static"
+    },
+      
+        {
+      title: "World of Warcraft",
+      description: "Developed a static promotional website for a client using React.js, JavaScript, and Tailwind CSS. Delivered a responsive and visually engaging interface to showcase subterranean worlds, new allied races, and storyline highlights, ensuring fast performance and smooth user experience across devices.",
+      techStack: ["ReactJS", "JavaScript", "Tailwind CSS"],
+      githubUrl: "",
+      liveUrl: "https://worldofwarcraft.netlify.app/",
+      thumbnail: wwc,
+      category: "static"
+    },
+      {
+      title: "Reign of Immortals",
+      description: "Developed the frontend of an immersive fantasy gaming platform using Next.js, delivering a seamless and engaging user experience. The site highlights features such as PvP combat, guild management, alliance building, and realm conquest with visually captivating UI components. Ensured fast performance, responsive design, and smooth navigation, providing players with an interactive and scalable platform to explore a dragon-dominated world.",
+      techStack: ["Next.js", "JavaScript", "Tailwind CSS"],
+      githubUrl: "",
+      liveUrl: "https://reign-of-immortails.netlify.app/",
+      thumbnail: reign,
       category: "static"
     },
      
