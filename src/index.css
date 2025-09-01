@@ -2292,10 +2292,11 @@ margin-top: 3rem;
 /* Nike-style Footer */
 .footer {
   background: #000000;
-  padding: 4rem 0;
+  padding: 4rem 0 2em 0;
   border-top: 1px solid rgba(255, 255, 255, 0.1);
   position: relative;
 }
+
 
 .footer::before {
   content: '';
@@ -2335,7 +2336,7 @@ margin-top: 3rem;
   text-decoration: none;
   font-size: 1.5rem;
   transition: all 0.3s cubic-bezier(0.25, 0.46, 0.45, 0.94);
-  padding: 1rem;
+  /* padding: 1rem; */
   background: rgba(255, 255, 255, 0.05);
   border: 1px solid rgba(255, 255, 255, 0.1);
   display: flex;
@@ -2369,13 +2370,13 @@ margin-top: 3rem;
   transform: translateY(-5px);
 }
 
-.footer-socials a:nth-child(even):hover {
-  background: #00ff00;
-  border-color: #00ff00;
-  color: #000000;
+.footer-socials a:nth-child(3n):hover {
+  background: #0f890f;
+  border-color: #0f890f;
+  color: #ffffff;
 }
 
-.footer-socials a:nth-child(3n):hover {
+.footer-socials a:nth-child(even):hover {
    background: #0080ff;
   border-color: #0080ff;
   color: #ffffff;
