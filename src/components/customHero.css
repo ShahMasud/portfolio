@@ -200,10 +200,13 @@ img {
         height: auto !important;
     }
 
-    .page-title {
+    .page-title{
         text-align: center;
         font-size: 40px !important;
     }
+                .page-title .role {
+            font-size: 40px !important;
+        }
 
     .page-paragraph {
         text-align: center !important;
