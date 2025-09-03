@@ -13,8 +13,11 @@ const Button = styled.button`
   transition: all 0.3s ease;
 
   &:hover {
-    border-bottom: 2px solid #d72020ff;
-    color: #d72020ff;
+    border-bottom: 2px solid #6366f1;
+      background: linear-gradient(135deg, #0ea5e9 0%, #6366f1 50%, #8b5cf6 100%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    background-clip: text;
   }
 
   &:active {
@@ -25,8 +28,11 @@ const Button = styled.button`
   ${({ active }) =>
     active &&
     css`
-      border-bottom: 2px solid #d72020ff;
-      color: #d72020ff;
+      border-bottom: 2px solid #6366f1;
+            background: linear-gradient(135deg, #0ea5e9 0%, #6366f1 50%, #8b5cf6 100%);
+  -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    background-clip: text;
     `}
 `;
 

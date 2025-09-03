@@ -153,7 +153,7 @@ export default function AboutMe() {
                 }}
               >
                 <span>💻</span>
-                <p>FFrontend Engineer</p>
+                <p>Frontend Engineer</p>
               </motion.div>
             </div>
           </motion.div>

@@ -110,16 +110,10 @@ h2 {
 .contact-section h2,
 
 .section-title {
-  background: linear-gradient(135deg, 
-    #ffffff 0%, 
-    #ff6b6b 25%, 
-    #00aaff 50%, 
-    #00ff88 75%, 
-    #ffffff 100%
-  );
-  -webkit-background-clip: text;
-  -webkit-text-fill-color: transparent;
-  background-clip: text;
+  background: linear-gradient(135deg, #0ea5e9 0%, #6366f1 50%, #8b5cf6 100%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    background-clip: text;
   background-size: 300% 300%;
   animation: gradientFlow 6s ease-in-out infinite;
   text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.3);
@@ -136,31 +130,31 @@ h2 {
 
 /* Specific Colors for Each Section */
 .about-section h2 {
-  background: linear-gradient(135deg, #ffffff 0%, #ff6b6b 50%, #ffffff 100%);
+  background: linear-gradient(135deg, #0ea5e9 0%, #6366f1 50%, #8b5cf6 100%);
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
   background-clip: text;
 }
 
 .skills-section h2 {
-  background: linear-gradient(135deg, #ffffff 0%, #00ff88 50%, #ffffff 100%);
-  -webkit-background-clip: text;
-  -webkit-text-fill-color: transparent;
-  background-clip: text;
+  background: linear-gradient(135deg, #0ea5e9 0%, #6366f1 50%, #8b5cf6 100%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    background-clip: text;
 }
 
 .projects-section h2 {
-  background: linear-gradient(135deg, #ffffff 0%, #ffaa00 50%, #ffffff 100%);
-  -webkit-background-clip: text;
-  -webkit-text-fill-color: transparent;
-  background-clip: text;
+  background: linear-gradient(135deg, #0ea5e9 0%, #6366f1 50%, #8b5cf6 100%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    background-clip: text;
 }
 
 .contact-section h2 {
-  background: linear-gradient(135deg, #ffffff 0%, #ff00ff 50%, #ffffff 100%);
-  -webkit-background-clip: text;
-  -webkit-text-fill-color: transparent;
-  background-clip: text;
+    background: linear-gradient(135deg, #0ea5e9 0%, #6366f1 50%, #8b5cf6 100%);
+      -webkit-background-clip: text;
+      -webkit-text-fill-color: transparent;
+      background-clip: text;
 }
 
 h3 {
@@ -272,13 +266,14 @@ p {
   background: #ffffff;
   color: #000000;
   border-color: #ffffff;
+  transform: unset !important;
 }
 
 .btn-primary:hover {
-  background: #ff0000;
+  background: linear-gradient(135deg, #0ea5e9 0%, #6366f1 50%, #8b5cf6 100%);
   color: #ffffff;
-  border-color: #ff0000;
-  transform: scale(1.05);
+  border-color: #6366f1;
+  transform: unset !important;
 }
 
 .btn-secondary {
@@ -757,12 +752,19 @@ p {
   height: 2px;
   bottom: 0;
   left: 50%;
-  background: #ff0000;
+    background: linear-gradient(135deg, #0ea5e9 0%, #6366f1 50%, #8b5cf6 100%);
+      -webkit-background-clip: text;
+      -webkit-text-fill-color: transparent;
+      background-clip: text;
   transition: all 0.3s cubic-bezier(0.25, 0.46, 0.45, 0.94);
 }
 
 .nav-links a:hover {
-  color: #ff0000;
+  border-bottom: 1px solid #6366f1;
+    background: linear-gradient(135deg, #0ea5e9 0%, #6366f1 50%, #8b5cf6 100%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    background-clip: text;
 }
 
 .nav-links a:hover::after {
@@ -860,7 +862,7 @@ p {
 
 .skill-category {
   background: linear-gradient(145deg, #1a1a1a 0%, #2d2d2d 100%);
-  border: 1px solid rgba(255, 59, 48, 0.1);
+  border: 1px solid #1b2c37;
   border-radius: 20px;
   padding: 40px;
   position: relative;
@@ -882,7 +884,7 @@ p {
 
 .skill-category:hover {
   transform: translateY(-8px);
-  border-color: rgba(255, 59, 48, 0.3);
+  border-color: #0490E7;
   box-shadow: 0 25px 50px rgba(0, 0, 0, 0.4), 0 0 40px rgba(255, 59, 48, 0.1);
 }
 
@@ -909,7 +911,7 @@ p {
   transform: translateX(-50%);
   width: 60px;
   height: 3px;
-  background: linear-gradient(90deg, #ff3b30, #ff6b6b);
+  background: linear-gradient(90deg, #0490E7, #5fa1ce);
   border-radius: 2px;
   transition: width 0.3s ease;
 }
@@ -927,13 +929,34 @@ p {
 }
 
 .skill-tag {
-  background: rgba(255, 59, 48, 0.1);
-  color: #ffffff;
+  /* background: rgba(0, 122, 255, 0.1);
+    border: 1px solid rgba(0, 122, 255, 0.3);
+    color: #61dafb; */
+
+    /* background: rgba(88, 86, 214, 0.1);
+      border: 1px solid rgba(88, 86, 214, 0.3);
+      color: #a78bfa; */
+
+      /* background: rgba(50, 220, 200, 0.1);
+        border: 1px solid rgba(50, 220, 200, 0.3);
+        color: #2dd4bf; */
+
+        /* background: rgba(255, 149, 0, 0.1);
+          border: 1px solid rgba(255, 149, 0, 0.3);
+          color: #fbbf24; */
+
+          background: linear-gradient(90deg, rgba(0, 122, 255, 0.15), rgba(88, 86, 214, 0.15));
+            border: 1px solid rgba(88, 86, 214, 0.3);
+            color: #ffffff;
+
+  /* background: rgba(255, 59, 48, 0.1);
+  border: 1px solid rgba(255, 59, 48, 0.2);
+  color: #ffffff; */
+
   padding: 12px 20px;
   border-radius: 25px;
   font-size: 0.9rem;
   font-weight: 600;
-  border: 1px solid rgba(255, 59, 48, 0.2);
   transition: all 0.3s cubic-bezier(0.4, 0, 0.2, 1);
   cursor: pointer;
   position: relative;
@@ -952,11 +975,16 @@ p {
 }
 
 .skill-tag:hover {
-  background: rgba(255, 59, 48, 0.2);
-  border-color: rgba(255, 59, 48, 0.4);
+  background: linear-gradient(90deg, rgba(0, 122, 255, 0.15), rgba(88, 86, 214, 0.15));
+    border: 1px solid rgba(88, 86, 214, 0.3);
+    color: #ffffff;
+box-shadow: linear-gradient(90deg, rgba(0, 122, 255, 0.15), rgba(88, 86, 214, 0.15));
+
+  /* background: rgba(255, 59, 48, 0.2);
+  border-color: rgba(255, 59, 48, 0.4); */
   transform: translateY(-2px) scale(1.05);
-  color: #ff6b6b;
-  box-shadow: 0 8px 25px rgba(255, 59, 48, 0.2);
+  /* color: #ff6b6b;
+  box-shadow: 0 8px 25px rgba(255, 59, 48, 0.2); */
 }
 
 .skill-tag:hover::before {
@@ -1095,7 +1123,7 @@ p {
 .education-card {
   background: rgba(255, 255, 255, 0.05);
   padding: 3rem;
-  border: 1px solid rgba(255, 255, 255, 0.1);
+  border: 1px solid #0490E7;
   margin-top: 4rem;
   transition: all 0.3s cubic-bezier(0.25, 0.46, 0.45, 0.94);
   text-align: left;
@@ -1110,7 +1138,7 @@ p {
   left: 0;
   width: 4px;
   height: 0;
-  background: #ff0000;
+  background: #0490E7;
   transition: height 0.5s cubic-bezier(0.25, 0.46, 0.45, 0.94);
 }
 
@@ -1146,16 +1174,16 @@ p {
 }
 
 .education-card {
-  background: linear-gradient(145deg, #1a1a1a 0%, #2d2d2d 100%);
-  border: 1px solid rgba(255, 59, 48, 0.1);
+  background: linear-gradient(90deg, rgba(0, 122, 255, 0.15), rgba(88, 86, 214, 0.15));
+    border: 1px solid rgba(88, 86, 214, 0.3);
   border-radius: 16px;
-  padding: 32px;
+  padding: 32px;  
   margin-bottom: 40px;
   transition: all 0.3s ease;
 }
 
 .education-card:hover {
-  border-color: rgba(255, 59, 48, 0.3);
+  border-color: #0490E7;
   box-shadow: 0 20px 40px rgba(0, 0, 0, 0.3);
 }
 
@@ -1179,7 +1207,10 @@ p {
 }
 
 .institution {
-  color: #ff6b6b;
+    background: linear-gradient(135deg, #0ea5e9 0%, #6366f1 50%, #8b5cf6 100%);
+      -webkit-background-clip: text;
+      -webkit-text-fill-color: transparent;
+      background-clip: text;
   font-weight: 500;
   margin-bottom: 4px;
 }
@@ -1210,19 +1241,22 @@ p {
 .stat-item {
   text-align: center;
   padding: 20px;
-  background: rgba(255, 59, 48, 0.05);
+  /* background: #050C17; */
   border-radius: 12px;
-  border: 1px solid rgba(255, 59, 48, 0.1);
+  /* border: 1px solid #36424E; */
   transition: all 0.3s ease;
+
+  background: linear-gradient(90deg, rgba(0, 122, 255, 0.15), rgba(88, 86, 214, 0.15));
+    border: 1px solid rgba(88, 86, 214, 0.3);
 }
 
 .stat-item:hover {
-  background: rgba(255, 59, 48, 0.1);
+  background: #36424E;
   transform: translateY(-4px);
 }
 
 .stat-item h3 {
-  color: #ff6b6b;
+  color: #ffffff;
   font-size: 2rem;
   font-weight: 800;
   margin-bottom: 8px;
@@ -1230,7 +1264,7 @@ p {
 }
 
 .stat-item p {
-  color: #b0b0b0;
+      color: #ffffff;
   font-size: 0.9rem;
   font-weight: 500;
 }
@@ -1973,7 +2007,7 @@ margin-top: 3rem;
 }
 
 .timeline-content h4 {
-  color: #cccccc;
+  color: #0490E7;
   font-weight: 400;
   margin-bottom: 1rem;
   position: relative;
@@ -2252,7 +2286,7 @@ margin-top: 3rem;
 }
 
 .cta-button {
-  background: linear-gradient(135deg, #ff3b30 0%, #ff6b6b 100%);
+  background: linear-gradient(135deg, #0ea5e9 0%, #6366f1 50%, #8b5cf6 100%);
   color: #ffffff;
   border: none;
   padding: 18px 40px;
@@ -2284,7 +2318,7 @@ margin-top: 3rem;
 }
 
 .cta-button:hover {
-  background: linear-gradient(135deg, #ff6b6b 0%, #ff9f9f 100%);
+    background: linear-gradient(135deg, #0ea5e9 0%, #6366f1 50%, #8b5cf6 100%);
   transform: translateY(-2px);
   box-shadow: 0 12px 35px rgba(255, 59, 48, 0.4);
 }
@@ -2562,10 +2596,10 @@ margin-top: 3rem;
 
 /* Additional Gradient Text Utilities */
 .text-gradient {
-  background: linear-gradient(135deg, #ff3b30 0%, #ff6b6b 50%, #ff9f9f 100%);
-  -webkit-background-clip: text;
-  -webkit-text-fill-color: transparent;
-  background-clip: text;
+    background: linear-gradient(135deg, #0ea5e9 0%, #6366f1 50%, #8b5cf6 100%);
+      -webkit-background-clip: text;
+      -webkit-text-fill-color: transparent;
+      background-clip: text;
 }
 
 .text-gradient-rainbow {

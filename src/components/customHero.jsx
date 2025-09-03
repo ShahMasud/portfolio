@@ -8,13 +8,14 @@ import profileImage2 from '../assets/skills.png';
 const LinkBtn = ({ text }) => {
   return (
      <motion.a
-                  href="#projects"
-                  className="btn-link btn-primary"
-                  whileHover={{ scale: 1.05 }}
-                  whileTap={{ scale: 0.98 }}
-                >
-                  View Projects
-                </motion.a>
+      href="/shahmasood-frontend-engineer.pdf" // Place your resume file in the public folder
+      download="Shah_Masood_Resume.pdf"
+      className="btn-link btn-primary"
+      whileHover={{ scale: 1.05 }}
+      whileTap={{ scale: 0.98 }}
+    >
+      Get my Resume
+    </motion.a>
   );
 };
 
@@ -30,7 +31,7 @@ const CustomHero = () => {
             animate={{ y: 0, x: 0, opacity: 1, scale: 1 }}
             transition={{ duration: 0.5, type: "tween" }}
           >
-            Hi, I’m Shah Masood — Frontend Engineer. 
+            Hi, I’m Shah Masood — <span className="role">Frontend Engineer.</span> 
           </motion.h2>
           <motion.p
             className="page-paragraph"

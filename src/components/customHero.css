@@ -77,10 +77,18 @@ img {
 .page-title {
     font-size: 85px !important;
     text-align: center;
-    /* background: linear-gradient(135deg, #ff3b30 0%, #ff6b6b 50%, #ff9f9f 100%);
-        -webkit-background-clip: text;
-        -webkit-text-fill-color: transparent;
-        background-clip: text; */
+    color: white;
+    /* -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    background-clip: text; */
+}
+.page-title .role{
+    font-size: 85px !important;
+    text-align: center;
+    background: linear-gradient(135deg, #0ea5e9 0%, #6366f1 50%, #8b5cf6 100%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    background-clip: text;
 }
 
 .page-paragraph {
