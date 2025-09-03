@@ -784,7 +784,7 @@ p {
 }
 
 .mobile-menu-btn:hover {
-  color: #ff0000;
+  color: #0490E7;
 }
 
 /* Mobile menu */
@@ -861,8 +861,8 @@ p {
 }
 
 .skill-category {
-  background: linear-gradient(145deg, #1a1a1a 0%, #2d2d2d 100%);
-  border: 1px solid #1b2c37;
+  background: linear-gradient(90deg, rgba(0, 122, 255, 0.15), rgba(88, 86, 214, 0.15));
+    border: 1px solid rgba(88, 86, 214, 0.3);
   border-radius: 20px;
   padding: 40px;
   position: relative;
@@ -1659,7 +1659,7 @@ margin-top: 3rem;
 }
 .projects-section {
   background: #111111;
-  padding: 120px 0;
+  padding: 120px 0 0 0;
   position: relative;
 }
 
@@ -1682,8 +1682,8 @@ margin-top: 3rem;
 }
 
 .project-card {
-  background: rgba(255, 255, 255, 0.05);
-  border: 1px solid rgba(255, 255, 255, 0.1);
+  background: linear-gradient(90deg, rgba(0, 122, 255, 0.15), rgba(88, 86, 214, 0.15));
+    border: 1px solid rgba(88, 86, 214, 0.3);
   overflow: hidden;
   transition: all 0.3s cubic-bezier(0.25, 0.46, 0.45, 0.94);
   position: relative;
@@ -1697,7 +1697,8 @@ margin-top: 3rem;
   left: 0;
   right: 0;
   bottom: 0;
-  background: linear-gradient(45deg, transparent, rgba(255, 255, 255, 0.05), transparent);
+  background: linear-gradient(90deg, rgba(0, 122, 255, 0.15), rgba(88, 86, 214, 0.15));
+    border: 1px solid rgba(88, 86, 214, 0.3);
   opacity: 0;
   transition: opacity 0.3s ease;
 }
@@ -1815,7 +1816,7 @@ margin-top: 3rem;
 }
 
 .project-content {
-  padding: 2.5rem;
+  padding: 2.5rem 2.5rem 0 2.5rem;
 }
 
 .project-content h3 {
@@ -1972,9 +1973,9 @@ margin-top: 3rem;
 }
 
 .timeline-content {
-  background: rgba(255, 255, 255, 0.05);
+  background: linear-gradient(90deg, rgba(0, 122, 255, 0.15), rgba(88, 86, 214, 0.15));
+    border: 1px solid rgba(88, 86, 214, 0.3);
   padding: 2.5rem;
-  border: 1px solid rgba(255, 255, 255, 0.1);
   transition: all 0.3s cubic-bezier(0.25, 0.46, 0.45, 0.94);
   position: relative;
   overflow: hidden;
@@ -2103,8 +2104,8 @@ margin-top: 3rem;
   align-items: flex-start;
   gap: 2rem;
   padding: 2rem;
-  background: rgba(255, 255, 255, 0.05);
-  border: 1px solid rgba(255, 255, 255, 0.1);
+  background: linear-gradient(90deg, rgba(0, 122, 255, 0.15), rgba(88, 86, 214, 0.15));
+    border: 1px solid rgba(88, 86, 214, 0.3);
   transition: all 0.3s cubic-bezier(0.25, 0.46, 0.45, 0.94);
   position: relative;
   overflow: hidden;
@@ -2151,8 +2152,8 @@ margin-top: 3rem;
 
 .social-links {
   display: flex;
-  gap: 1.5rem;
-  margin-top: 2rem;
+  gap: 10px;
+  /* margin-top: 2rem; */
   flex-wrap: wrap;
 }
 
@@ -2161,8 +2162,8 @@ margin-top: 3rem;
   align-items: center;
   gap: 0.75rem;
   padding: 1rem 2rem;
-  background: rgba(255, 255, 255, 0.05);
-  border: 2px solid rgba(255, 255, 255, 0.2);
+  background: linear-gradient(90deg, rgba(0, 122, 255, 0.15), rgba(88, 86, 214, 0.15));
+    border: 1px solid rgba(88, 86, 214, 0.3);
   color: #ffffff;
   text-decoration: none;
   font-weight: 600;
@@ -2221,8 +2222,8 @@ margin-top: 3rem;
 
 /* Contact Form Styles */
 .contact-form-container {
-  background: linear-gradient(145deg, #1a1a1a 0%, #2d2d2d 100%);
-  border: 1px solid rgba(255, 59, 48, 0.1);
+background: linear-gradient(90deg, rgba(0, 122, 255, 0.15), rgba(88, 86, 214, 0.15));
+  border: 1px solid rgba(88, 86, 214, 0.3);
   border-radius: 20px;
   padding: 40px;
   position: relative;
@@ -2269,9 +2270,9 @@ margin-top: 3rem;
 .form-input:focus,
 .form-textarea:focus {
   outline: none;
-  border-color: rgba(255, 59, 48, 0.5);
-  background: rgba(255, 255, 255, 0.08);
-  box-shadow: 0 0 0 4px rgba(255, 59, 48, 0.1);
+  background: linear-gradient(90deg, rgba(0, 122, 255, 0.15), rgba(88, 86, 214, 0.15));
+    border: 1px solid rgba(88, 86, 214, 0.3);
+  /* box-shadow: 0 0 0 4px rgba(84, 84, 91, 0.3); */
 }
 
 .form-input::placeholder,
@@ -2325,7 +2326,7 @@ margin-top: 3rem;
 
 /* Nike-style Footer */
 .footer {
-  background: #000000;
+  background: transparent;
   padding: 4rem 0 2em 0;
   border-top: 1px solid rgba(255, 255, 255, 0.1);
   position: relative;
