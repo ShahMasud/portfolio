@@ -9,7 +9,7 @@ const LinkBtn = ({ text }) => {
   return (
      <motion.a
       href="/shahmasood-frontend-engineer.pdf" // Place your resume file in the public folder
-      download="Shah_Masood_Resume.pdf"
+      download="Shah_Masood_Frontend_Engineer.pdf"
       className="btn-link btn-primary"
       whileHover={{ scale: 1.05 }}
       whileTap={{ scale: 0.98 }}
