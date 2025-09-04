@@ -195,7 +195,9 @@ img {
         margin-top: 80px !important;
         height: auto !important;
     }
-
+/* .text-holder {
+    padding: unset !important;
+} */
     .pic-holder {
         height: auto !important;
     }
